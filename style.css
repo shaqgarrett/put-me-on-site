@@ -1,0 +1,175 @@
+
+body {
+    background-color:lightsteelblue;
+    color: #000732; 
+    font-family: Arial, Helvetica, sans-serif; 
+   margin: 0;
+   
+}  
+
+footer{
+    margin:10px; 
+} 
+
+ h2, h3 { 
+    color:  #000b52; 
+    margin: 10;
+} 
+h1 {
+    color:white; 
+    font-size: xxx-large;
+}
+
+header { 
+    background-color: #427BD2; 
+    height: 150px; 
+    margin: 0px
+}  
+
+main {
+    margin: 10px;
+} 
+
+#navigation { 
+    background-color: #000732; 
+    color: white;   
+    overflow:hidden; 
+    
+   
+} 
+
+#navigation ul { 
+    padding:0; 
+    list-style: none; 
+    margin:0;  
+    background-color: #000732;   
+} 
+
+#navigation li{
+    float:left; 
+} 
+
+#navigation li a{ 
+    color: white;
+    padding: 14px 16px;  
+    display:block;  
+    text-align: center;    
+    text-decoration: none; 
+    background-color: #000732;  
+}
+
+#navigation li a:hover {
+    background-color: #000b52; 
+    
+} 
+
+.welcome {
+    margin-top:100px; 
+    padding: 10;
+}
+ 
+.banner {
+ height:500px;  
+ width: 100%;
+ object-fit:fill; 
+ display:flex;
+
+}
+
+.container {
+    position:relative;
+    text-align:center;
+    color:white;
+} 
+
+.centered {
+    position: absolute;  
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+    
+} 
+
+.centered h1:hover{
+    color:#427BD2;
+}
+.roadmap {
+    object-fit: fill; 
+    width: 100%; 
+    object-fit: contain;  
+    display:flex;
+}  
+
+#putmeon { 
+    margin: 15; 
+    padding: 100;
+}
+
+.about{
+    width: 100%; 
+    padding: 78px 0px; 
+
+} 
+
+.about img{
+    height:auto; 
+    width: 420px;
+} 
+
+.container4-text{
+    width:550px; 
+    
+} 
+
+.main { 
+    width: 1130px; 
+    max-width:95%; 
+    margin: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+} 
+
+.container4-text h1{
+    font-size: 80px; 
+    text-transform: capitalize; 
+    margin-bottom: 20px; 
+    color:#427BD2
+} 
+
+.container4-text h1:hover{ 
+    color:white;
+}
+
+.container4-text h5{
+    font-size: 25px; 
+    text-transform: capitalize; 
+    margin-bottom: 25px; 
+    letter-spacing: 2px; 
+    color: #427BD2;
+} 
+
+.container4-text h5:hover{ 
+    color:white;
+}
+
+.container4-text p {
+    letter-spacing: 1px; 
+    line-height: 28px; 
+    font-size: 18px; 
+    margin-bottom: 45px; 
+    color: white;
+} 
+
+.videos {  
+    display:flex;
+   flex-flow: row;
+
+} 
+@media (max-width:1000px) {
+    .videos {
+        flex-flow: column;
+    }
+}
+    
+/*Find solution for the youtube videos on the Resources page*/ 

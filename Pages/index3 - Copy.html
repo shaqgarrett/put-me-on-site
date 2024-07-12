@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <meta charset="utf-8"> 
+    <header> 
+        <title>PutMeOn</title> 
+        <img src="../PutMeOn-logos/PutMeOn-logos.jpeg" alt="logocolor" width="150" height="150">  
+        <link rel="stylesheet" href="../style.css">
+    </header> 
+    <style>   
+  
+    textarea {
+        width:100%; 
+        padding:12px 20px;
+        margin: 8px 0; 
+        display:inline-block; 
+        border: 1px solid #ccc;
+        border-radius:4px; 
+        box-sizing: border-box;
+    }
+    input[type=text], select { 
+        width: 100%;
+        padding: 12px 20px; 
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius:4px; 
+        box-sizing: border-box;
+
+    } 
+
+    input[type=email], select { 
+        width: 100%;
+        padding: 12px 20px; 
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius:4px; 
+        box-sizing: border-box;
+
+    } 
+    ::placeholder{ 
+        color:#000732; 
+    }
+
+    input[type=Submit] {
+        width:50%;
+        background-color: #000732; 
+        color:white;
+        padding: 14px 20px;
+        margin:8px 0; 
+        border: none; 
+        border-radius: 4px;
+        cursor: pointer;  
+    } 
+
+    input[type=submit]:hover {
+        background-color:#000b52;
+    }
+    </style>  
+<body> 
+    <nav id="navigation"> 
+        <ul> 
+            <li><a href="../index.html">Home</a></li>  
+            <li><a href="index4.html">About Me</a></li>
+            <li><a href="index2.html">Resources</a></li>  
+            <li><a href="index5.html">Job Interviews</a></li> 
+            <li><a href="index3.html">Contact Us</a></li>
+        </ul>  
+    </nav> 
+    <div class="container">
+        <div class="centered"><h1>Contact Us</h1></div>
+        <!--insert banner--> 
+        <img class="banner" src="../Images/blue.jpg" alt="Blue Nebula">  
+    </div>
+    <main> 
+
+    <section> 
+        <h2>Leave a review!</h2> 
+        <h3>Any feedback of the site is greatly appreciated!</h3>
+        <form method="POST" action="index.html"> 
+            <fieldset>
+                <legend>How helpful was the information?</legend>
+              
+                <input type="radio" name="review" value="extremelyhelpful" id="extremelyhelpful">
+                <label for="extremelyhelpful">Extremely Helpful</label>
+              
+                <input type="radio" name="review" value="somewhatHelpful" id="somewhathelpful">
+                <label for="somewhathelpful">Somewhat Helpful</label>
+                
+                <input type="radio" name="review" value="neutral" id="neutral">
+                <label for="neutral">Neutral</label>
+                
+                <input type="radio" name="waste" value="waste" id="waste">
+                <label for="waste">Waste of Time</label>
+              </fieldset> 
+            <p><textarea placeholder="Any additional comments..." rows="2" cols="40"></textarea></p> 
+            <p><input type="submit" value="Submit"></p>
+    </form> 
+    </section> 
+    <section> 
+        <h2>Newsletter</h2> 
+        <p>Submit below to join our Newsletter for weekly news articles regarding the tech industry!</p>
+        <form method="POST" action="index.html">  
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="First Name"> 
+
+            <label for="email">Email Address:</label>
+            <input type="email" placeholder="Name@mail.com"> 
+            
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </section> 
+    </main> 
+    <footer><p>Copyright &#169; 2022 by Bobby Garrett</p></footer> 
+</body> 
+</html>
